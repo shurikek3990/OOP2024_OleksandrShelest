@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\w69949\\Source\\Repos\\OOP_OleksandrShelest\\OOPLab2\\OOPLab2.csproj": {}
+    "C:\\Users\\w69949\\Source\\Repos\\OOP_OleksandrShelest\\OOPLab2\\OOPLabs.csproj": {}
   },
   "projects": {
-    "C:\\Users\\w69949\\Source\\Repos\\OOP_OleksandrShelest\\OOPLab2\\OOPLab2.csproj": {
+    "C:\\Users\\w69949\\Source\\Repos\\OOP_OleksandrShelest\\OOPLab2\\OOPLabs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\w69949\\Source\\Repos\\OOP_OleksandrShelest\\OOPLab2\\OOPLab2.csproj",
-        "projectName": "OOPLab2",
-        "projectPath": "C:\\Users\\w69949\\Source\\Repos\\OOP_OleksandrShelest\\OOPLab2\\OOPLab2.csproj",
+        "projectUniqueName": "C:\\Users\\w69949\\Source\\Repos\\OOP_OleksandrShelest\\OOPLab2\\OOPLabs.csproj",
+        "projectName": "OOPLabs",
+        "projectPath": "C:\\Users\\w69949\\Source\\Repos\\OOP_OleksandrShelest\\OOPLab2\\OOPLabs.csproj",
         "packagesPath": "C:\\Users\\w69949\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\w69949\\Source\\Repos\\OOP_OleksandrShelest\\OOPLab2\\obj\\",
         "projectStyle": "PackageReference",

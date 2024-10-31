@@ -1,14 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\w69949\\source\\repos\\OOPLab2\\",
+  "WorkspaceRootPath": "C:\\Users\\w69949\\source\\repos\\OOP_OleksandrShelest\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BE2701FF-76ED-4547-82AF-A4C0C3EAB796}|OOPLab2\\OOPLab2.csproj|c:\\users\\w69949\\source\\repos\\ooplab2\\ooplab2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BE2701FF-76ED-4547-82AF-A4C0C3EAB796}|OOPLab2\\OOPLab2.csproj|c:\\users\\w69949\\source\\repos\\oop_oleksandrshelest\\ooplab2\\constructions\\construction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE2701FF-76ED-4547-82AF-A4C0C3EAB796}|OOPLab2\\OOPLab2.csproj|solutionrelative:ooplab2\\constructions\\construction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2701FF-76ED-4547-82AF-A4C0C3EAB796}|OOPLab2\\OOPLab2.csproj|c:\\users\\w69949\\source\\repos\\oop_oleksandrshelest\\ooplab2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BE2701FF-76ED-4547-82AF-A4C0C3EAB796}|OOPLab2\\OOPLab2.csproj|solutionrelative:ooplab2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE2701FF-76ED-4547-82AF-A4C0C3EAB796}|OOPLab2\\OOPLab2.csproj|c:\\users\\w69949\\source\\repos\\ooplab2\\ooplab2\\constructions\\construction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE2701FF-76ED-4547-82AF-A4C0C3EAB796}|OOPLab2\\OOPLab2.csproj|solutionrelative:ooplab2\\constructions\\construction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BE2701FF-76ED-4547-82AF-A4C0C3EAB796}|OOPLab2\\OOPLab2.csproj|c:\\users\\w69949\\source\\repos\\oop_oleksandrshelest\\ooplab2\\constructions\\dto\\createconstructiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE2701FF-76ED-4547-82AF-A4C0C3EAB796}|OOPLab2\\OOPLab2.csproj|solutionrelative:ooplab2\\constructions\\dto\\createconstructiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,33 +26,42 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "CreateConstructionDTO.cs",
+              "DocumentMoniker": "C:\\Users\\w69949\\source\\repos\\OOP_OleksandrShelest\\OOPLab2\\Constructions\\DTO\\CreateConstructionDTO.cs",
+              "RelativeDocumentMoniker": "OOPLab2\\Constructions\\DTO\\CreateConstructionDTO.cs",
+              "ToolTip": "C:\\Users\\w69949\\source\\repos\\OOP_OleksandrShelest\\OOPLab2\\Constructions\\DTO\\CreateConstructionDTO.cs",
+              "RelativeToolTip": "OOPLab2\\Constructions\\DTO\\CreateConstructionDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T09:52:37.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Construction.cs",
-              "DocumentMoniker": "C:\\Users\\w69949\\source\\repos\\OOPLab2\\OOPLab2\\Constructions\\Construction.cs",
+              "DocumentMoniker": "C:\\Users\\w69949\\source\\repos\\OOP_OleksandrShelest\\OOPLab2\\Constructions\\Construction.cs",
               "RelativeDocumentMoniker": "OOPLab2\\Constructions\\Construction.cs",
-              "ToolTip": "C:\\Users\\w69949\\source\\repos\\OOPLab2\\OOPLab2\\Constructions\\Construction.cs*",
+              "ToolTip": "C:\\Users\\w69949\\source\\repos\\OOP_OleksandrShelest\\OOPLab2\\Constructions\\Construction.cs*",
               "RelativeToolTip": "OOPLab2\\Constructions\\Construction.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAxwCoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-17T08:57:19.037Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\w69949\\source\\repos\\OOPLab2\\OOPLab2\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\w69949\\source\\repos\\OOP_OleksandrShelest\\OOPLab2\\Program.cs",
               "RelativeDocumentMoniker": "OOPLab2\\Program.cs",
-              "ToolTip": "C:\\Users\\w69949\\source\\repos\\OOPLab2\\OOPLab2\\Program.cs*",
-              "RelativeToolTip": "OOPLab2\\Program.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAhAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\w69949\\source\\repos\\OOP_OleksandrShelest\\OOPLab2\\Program.cs",
+              "RelativeToolTip": "OOPLab2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-17T08:33:59.09Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

@@ -1,0 +1,5 @@
+C:\Users\w69949\Source\Repos\OOP_OleksandrShelest\OOPLab2\obj\Debug\net8.0\OOPLabs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\w69949\Source\Repos\OOP_OleksandrShelest\OOPLab2\obj\Debug\net8.0\OOPLabs.AssemblyInfoInputs.cache
+C:\Users\w69949\Source\Repos\OOP_OleksandrShelest\OOPLab2\obj\Debug\net8.0\OOPLabs.AssemblyInfo.cs
+C:\Users\w69949\Source\Repos\OOP_OleksandrShelest\OOPLab2\obj\Debug\net8.0\OOPLabs.csproj.CoreCompileInputs.cache
+C:\Users\w69949\Source\Repos\OOP_OleksandrShelest\OOPLab2\obj\Debug\net8.0\OOPLabs.sourcelink.json

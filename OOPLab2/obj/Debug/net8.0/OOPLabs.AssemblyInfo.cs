@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("OOPLab2")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("OOPLabs")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+deca97b7495d3c2c3991dc8186d3423f447763fd")]
-[assembly: System.Reflection.AssemblyProductAttribute("OOPLab2")]
-[assembly: System.Reflection.AssemblyTitleAttribute("OOPLab2")]
+[assembly: System.Reflection.AssemblyProductAttribute("OOPLabs")]
+[assembly: System.Reflection.AssemblyTitleAttribute("OOPLabs")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Wygenerowane przez klasę WriteCodeFragment programu MSBuild.
