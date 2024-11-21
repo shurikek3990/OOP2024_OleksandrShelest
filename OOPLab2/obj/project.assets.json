@@ -8,23 +8,23 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\w69949\\.nuget\\packages\\": {},
+    "C:\\Users\\shuri\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\w69949\\Source\\Repos\\OOP_OleksandrShelest\\OOPLab2\\OOPLab2.csproj",
+      "projectUniqueName": "C:\\Users\\shuri\\Source\\Repos\\OOP_OleksandrShelest\\OOPLab2\\OOPLab2.csproj",
       "projectName": "OOPLab2",
-      "projectPath": "C:\\Users\\w69949\\Source\\Repos\\OOP_OleksandrShelest\\OOPLab2\\OOPLab2.csproj",
-      "packagesPath": "C:\\Users\\w69949\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\w69949\\Source\\Repos\\OOP_OleksandrShelest\\OOPLab2\\obj\\",
+      "projectPath": "C:\\Users\\shuri\\Source\\Repos\\OOP_OleksandrShelest\\OOPLab2\\OOPLab2.csproj",
+      "packagesPath": "C:\\Users\\shuri\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\shuri\\Source\\Repos\\OOP_OleksandrShelest\\OOPLab2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\w69949\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\shuri\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -33,7 +33,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -50,8 +49,9 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "direct"
-      }
+        "auditMode": "all"
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -72,7 +72,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

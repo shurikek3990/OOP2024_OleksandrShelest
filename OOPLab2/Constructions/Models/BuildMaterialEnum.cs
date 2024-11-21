@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OOPLab2.Constructions.Models
+namespace OOP.Constructions.Models
 {
     internal enum BuildMaterialEnum
     {
-        Brick = 0,
+        Brik = 0,
         Wood = 100,
         Concrete = 200
     }

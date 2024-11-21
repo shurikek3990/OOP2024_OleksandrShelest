@@ -1,45 +1,51 @@
-﻿using OOPLab2.Constructions.DTO;
+﻿using OOP.Constructions.DTO;
+using OOP.Constructions.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OOPLab2.Constructions
+namespace OOP.Constructions
 {
     internal class Construction
     {
         public Construction()
         {
-            Height = 70;
-            Width = 133;
-            Entrances = 6;
-            HumanCapacity = 28;
-            BuildMaterial = "Asbestos";
+            Height = 23;
+            Width = 45;
+            Entrances = 4;
+            HumanCapacity = 12;
+            BuildMaterial = BuildMaterialEnum.Wood;
+            Roofing = "Asbestos";
         }
-
         public Construction(CreateConstructionDTO construction)
         {
             Height = construction.Height;
             Width = construction.Width;
             Entrances = construction.Entrances;
-            HumanCapacity = 28;
+            HumanCapacity = 2;
             BuildMaterial = construction.BuildMaterial;
         }
-
-        public Construction(float height, float width, int entrances, int humanCapacity, string buildMaterial)
+        public Construction(float height, float width, int entrances, int humancapacity, BuildMaterialEnum buildmaterial, string roofing)
         {
             Height = height;
             Width = width;
             Entrances = entrances;
-            HumanCapacity = humanCapacity;
-            BuildMaterial = buildMaterial;
+            HumanCapacity = humancapacity;
+            BuildMaterial = buildmaterial;
+            Roofing = roofing;
+
         }
         public float Height { get; set; }
         public float Width { get; set; }
         public int Entrances { get; set; }
         public int HumanCapacity { get; set; }
-        public string BuildMaterial
+        public string Roofing { get; set; }
+        private BuildMaterialEnum _buildMaterial { get; set; }
+        public BuildMaterialEnum BuildMaterial
+
         {
             get
             {
@@ -47,13 +53,27 @@ namespace OOPLab2.Constructions
             }
             set
             {
-                if (string.IsNullOrEmpty(value))
-                {
-                    throw new ArgumentNullException("Value cannot be Null");
-                }
+                //if (value == null)
+                //{
+                //    throw new ArgumentNullException("value cannot be null");
+                //}
                 _buildMaterial = value;
             }
+
         }
-        private string _buildMaterial { get; set; }
+        public float getSquareCost()
+        {
+            if (BuildMaterial == BuildMaterialEnum.Concrete)
+            {
+                return 0.87f * Height * Width * 0.9f;
+            }
+
+            else if (BuildMaterial == BuildMaterialEnum.Brik)
+            {
+                return 0.8f * Height * Width * 0.9f;
+            }
+            return 0.78f * Height * Width * 0.9f;
+
+        }
     }
 }
