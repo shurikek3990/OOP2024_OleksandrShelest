@@ -1,5 +1,6 @@
 ﻿using OOP.Constructions.DTO;
 using OOP.Constructions.Models;
+using OOPLab2.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace OOP.Constructions
 {
-    internal class Construction
+    internal class Construction: ISquareCost, IConstructionInfo
     {
         public Construction()
         {
@@ -61,7 +62,7 @@ namespace OOP.Constructions
             }
 
         }
-        public float getSquareCost()
+        public float GetSquareCost()
         {
             if (BuildMaterial == BuildMaterialEnum.Concrete)
             {
@@ -74,6 +75,23 @@ namespace OOP.Constructions
             }
             return 0.78f * Height * Width * 0.9f;
 
+        }
+
+        public double CalculateSquareCost()
+        {
+            return GetSquareCost();
+        }
+        public void DisplayCostDetails() 
+        {
+            Console.WriteLine($"Square cost details for thebuilding: ");
+            Console.WriteLine($"Height: {Height}, Width: {Width},Entrances: { Entrances}, Human Capacity: { HumanCapacity}, BuildMaterial: { BuildMaterial}");
+            Console.WriteLine($"Square Cost: {CalculateSquareCost()}");
+        }
+        public void DisplayConstructionInfo()
+        {
+            Console.WriteLine($"Square cost details for thebuilding: ");
+            Console.WriteLine($"Height: {Height}, Width: {Width},Entrances: {Entrances}, Human Capacity: {HumanCapacity}, BuildMaterial: {BuildMaterial}");
+            Console.WriteLine($"Square Cost: {CalculateSquareCost()}");
         }
     }
 }
